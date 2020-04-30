@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta chatset="utf-8" />
+
+	<title>This is a test</title>
+	<h1 id="alert"> </h1>
+	<h2 id="cok"> </h2>
+	<style>
+		* {
+			margin: 20px;
+			padding: 0;
+		}
+
+		a {
+			display: block;
+			width: 220px;
+			padding: 1em;
+			margin: 0 auto;
+			font-size: 1em;
+			color: #FFF;
+			background-color: highlight;
+			text-decoration: none;
+		}
+	</style>
+
+</head>
+
+<body>
+	<a>点击调用android原生方法打印</a>
+	<!--var data = JSON.stringify(a)-->
+
+	<script type="text/javascript">
+<!--		var a1 = '[{"meal":"情侣双人套餐","price":"40.00","list":[{"title":"烧烤风味鸡肉披萨","img":"/menu-1.jpg","price":"25.00","number":1},{"title":"卡邦尼意面","img":"/menu-2.jpg","price":"22.00","number":1}]},{"title":"抹茶冰淇淋","img":"/menu-3.jpg","price":"22.00","number":1},{"title":"桃桃汽水(赠品)","img":"/menu-4.jpg","price":"0.00","number":1}]';-->
+<!--		localStorage.setItem("web", JSON.stringify(a1))-->
+<!--		var df = JSON.parse(localStorage.getItem("web"))-->
+<!--		document.getElementById("alert").innerText = df;-->
+
+		document.getElementsByTagName('a')[0].addEventListener('click', function () {
+			<!--var a = '{"business":"商家名称","table":"台号","order":"订单号","store":"店名","user":"收银员","receivable":"应收金额","netReceipts":"实收金额","menu":[{"title":"火腿通粉","price":29,"number":1},{"title":"&#45;&#45;&#45;&#45;&#45;&#45;叉燒","price":6,"number":1},{"title":"<套餐>早餐","price":39,"number":1},{"title":">>火腿通粉","price":0,"number":1},{"title":"&#45;&#45;&#45;&#45;&#45;&#45;轉滾水","price":0,"number":1},{"title":"&#45;&#45;&#45;&#45;&#45;&#45;分","price":0,"number":1},{"title":"&#45;&#45;&#45;&#45;&#45;&#45;湯","price":0,"number":1},{"title":">>蛋治","price":0,"number":1},{"title":"&#45;&#45;&#45;&#45;&#45;&#45;鮮油","price":3,"number":1},{"title":"&#45;&#45;&#45;&#45;&#45;&#45;央","price":3,"number":1},{"title":"&#45;&#45;&#45;&#45;&#45;&#45;占","price":0,"number":1},{"title":">>港式咖啡","price":0,"number":1},{"title":"&#45;&#45;&#45;&#45;&#45;&#45;凍","price":3,"number":1},{"title":"&#45;&#45;&#45;&#45;&#45;&#45;啡","price":0,"number":1}]}';-->
+			<!--javascript: lee.printClick(a);-->
+			<!--javascript: lee.getSN();-->
+			<!--alert( lee.getSN());-->
+			<!--alert("sas");-->
+				<!--javascript: lee.hideKeyboard();-->
+			return false;
+		}, false);
+	</script>
+
+
+</body>
+
+</html>

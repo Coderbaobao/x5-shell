@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">chuangjue</string>
+    <string name="bt_open_url">确定配置地址</string>
+    <string name="string_hit">输入链接地址</string>
+</resources>
